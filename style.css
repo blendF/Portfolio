@@ -57,3 +57,53 @@ nav ul li a:hover {
 .butoni:hover {
     transform: scale(1.2);
 }
+.permbajtja {
+    position: absolute;
+    top: 37%;
+    left: 8%;
+    transform: translateY(-50%);
+    
+}
+h1 {
+    color: white;
+    margin: 20px;
+    font-size: 40px;
+}
+h3 {
+    color: white;
+    font-size: 25px;
+    margin-bottom: 50px;
+}
+h4 {
+    color: #17e495;
+    letter-spacing: 2px;
+    font-size: 20px;
+}
+.persentimi form {
+    width: 38px;
+    max-width: 70%;
+    position: relative;
+}
+.permbajtja form input:first-child {
+    display: inline-block;
+    width: 80%;
+    padding: 10px;
+    border: 2px solid #17e495;
+    outline: none;
+    border-radius: 30px;
+
+}
+.permbajtja form input:last-child {
+    position: absolute;
+    display: inline-block;
+    outline: none;
+    border: none;
+    padding: 8px;
+    border-radius: 30px;
+    background-color: #17e495;
+    color: white;
+    box-shadow: 0px 0px 5px #000, 0px 0px 15px #858585;
+    top: 179px;
+    right: 76px;
+
+}
