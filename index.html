@@ -7,13 +7,6 @@
     <script type="text/javascript" src="main.js"></script>
     <link rel="stylesheet" href="style.css" />
     <title>My Portfolio</title>
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
-      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
   </head>
   <body>
     <!--fillimi i navbarit-->
@@ -27,13 +20,25 @@
           <li><a href="#">Skills</a></li>
           <li><a href="#">Contact Us</a></li>
         </ul>
-        <a href="#" class="butoni" onclick="abonohu()"> Subscribe </a>
+        <a href="#" class="butoni" onclick="abonohu()"> Hire Me </a>
       </nav>
-
+      <div class="profilephoto">
+        <img
+          src="imazhe/profile.jpg"
+          alt=""
+          width="300px"
+          style="
+            box-shadow: 0px 0px 29px -1px rgba(23, 228, 149, 1);
+            -webkit-box-shadow: 0px 0px 29px -1px rgba(23, 228, 149, 1);
+            -moz-box-shadow: 0px 0px 29px -1px rgba(23, 228, 149, 1);
+            border-radius: 30px;
+          "
+        />
+      </div>
       <div class="permbajtja">
-        <h4>Hello, my name is</h4>
-        <h1>Blendi Ferizi</h1>
-        <h3>I'm a Web Developer</h3>
+        <h4>Hello, <span style="color: white">my name is</span></h4>
+        <h1>Blendi <span>Ferizi</span></h1>
+        <h3><span>I am a</span> Front-End Developer!</h3>
         <div class="presentimi">
           <form action="">
             <input
@@ -41,15 +46,18 @@
               name="email"
               id="email"
               placeholder="Your Email"
+              required
             />
             <input
               type="submit"
               name="submit"
               id="apliko"
-              value="Send Mail"
+              value="Filloni"
               style="font-weight: 800"
+              onclick="getter()"
             />
           </form>
+          <p id="getter" style="color: white"></p>
         </div>
       </div>
     </div>
