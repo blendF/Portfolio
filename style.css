@@ -5,12 +5,13 @@
   box-sizing: border-box;
 }
 
-    .profilephoto {
-        
-        position: absolute;
-        top: 22%;
-        left: 73%;
-    }
+.fronttext {
+    font-size: 40px;
+    font-weight: 500;
+    color: #17e495;
+    align-items: center;
+    margin-left: 25px;
+}
 
 .navbari {
     height: 100vh;
@@ -107,13 +108,58 @@ h4 {
     display: inline-block;
     outline: none;
     border: none;
-    padding: 8px;
+    padding: 9px;
     border-radius: 30px;
     background-color: #17e495;
     color: white;
     box-shadow: 0px 0px 5px #000, 0px 0px 15px #858585;
-    top: 207px;
-    right: 58px;
+    top: 206px;
+    right: 57px;
     
 
+}
+
+.rrethne {
+    width: 100%;
+    padding: 100px 0px;
+    background-color:  #000;
+
+}
+
+.rrethne img{
+    height: auto;
+    width: 430px;
+}
+
+.rrethne-teksti {
+    width: 550px;
+
+}
+.rrethne-teksti h2 {
+    color: white;
+    font-size: 60px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+.rrethne-teksti h5 {
+    color: #17e495;
+    letter-spacing: 2px;
+    font-size: 22px;
+    margin-bottom: 25px;
+    text-transform: capitalize;
+}
+.rrethne-teksti p {
+    color: white;
+    letter-spacing: 1px;
+    line-height: 28px;
+}
+
+.mbajtesi {
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
 }
