@@ -19,20 +19,19 @@
       <nav>
         <h2 class="logo">My<span>Resume</span></h2>
         <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">About Me</a></li>
-          <li><a href="#">Services</a></li>
-          <li><a href="#">Skills</a></li>
-          <li><a href="#">Contact Us</a></li>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About Me</a></li>
+          <li><a href="#sherbimet">Services</a></li>
+          <li><a href="#kontakti">Contact Me</a></li>
         </ul>
-        <a href="#" class="butoni" onclick="abonohu()"> Hire Me </a>
+        <a href="#" class="butoni" onclick="abonohu()">Aboohu</a>
       </nav>
-
       <div class="frontlogo" style="position: absolute; top: 30%; left: 73%">
         <p style="color: white" class="fronttext">My<span>Stack</span></p>
         <br />
         <img src="imazhe/frontlogos.png" alt="" width="200px" />
       </div>
+      <p id="home"></p>
       <div class="permbajtja">
         <h4>Hello, <span style="color: white">my name is</span></h4>
         <h1>Blendi <span>Ferizi</span></h1>
@@ -61,10 +60,12 @@
     </div>
 
     <!--Fillimi i About US-->
+    <p id="about"></p>
     <section class="rrethne">
       <div class="mbajtesi">
-        <img src="imazhe/profile.jpg" alt="" />
+        <img src="imazhe/profile.jpg" alt="" class="imgprof" />
         <div class="rrethne-teksti">
+          <p id="about"></p>
           <h2>About Me</h2>
           <h5>
             Developer <span style="color: white !important">&</span> DevOps
@@ -81,8 +82,11 @@
         </div>
       </div>
     </section>
+
     <!--Fillimi i  Services (sherbimeve)-->
+
     <div class="sherbimet">
+      <p id="sherbimet"></p>
       <div class="titulli">
         <h2>Shërbimet</h2>
       </div>
@@ -105,11 +109,11 @@
         <div class="karta">
           <i class="fa-solid fa-user"></i>
 
-          <h5>Web Development</h5>
+          <h5>Development Operations</h5>
           <div class="pra">
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem
-              quaerat quis expedita accusamus error perspiciatis dolor voluptate
+              Lorem ipsum dolor, sit amet
             </p>
           </div>
           <p>
@@ -119,7 +123,7 @@
         <div class="karta">
           <i class="fa-solid fa-bell"></i>
 
-          <h5>Web Development</h5>
+          <h5>User Data Management</h5>
           <div class="pra">
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem
@@ -130,6 +134,84 @@
             <a class="button" href="#" style="text-align: center"> Read More</a>
           </p>
         </div>
+      </div>
+    </div>
+
+    <div class="kontakti">
+      <p id="kontakti"></p>
+      <p>Let me get you a beautiful website!</p>
+      <a class="linkto" href="#" onclick="hireme()">Me Puneso!</a>
+      <br />
+      <h6
+        style="
+          font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+            'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+          letter-spacing: 1px;
+          color: white;
+        "
+      >
+        Mbush emailin lart para se te mbushesh kete form!
+      </h6>
+    </div>
+
+    <div class="googlemaps">
+      <center>
+        <iframe
+          class="iframe"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2934.138632612823!2d21.146172150456632!3d42.65841752409864!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x13549ef7277fbbb1%3A0xbf0fb2d0c77deff!2sBambus%20Group!5e0!3m2!1sen!2s!4v1650496366913!5m2!1sen!2s"
+          width="400"
+          height="200"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        >
+        </iframe>
+      </center>
+      <div class="footer1">
+        <center>
+          <h1 style="color: white">Contact Me</h1>
+          <div>
+            <a href="https://twitter.com/ball1st1kCSGO" target="_blank"
+              ><img src="imazhe/twitter.png" alt="" width="50px"
+            /></a>
+            <a
+              class="social"
+              href="https://www.facebook.com/profile.php?id=100072424956100"
+              target="_blank"
+              ><img src="imazhe/facebook.png" alt="" width="50px"
+            /></a>
+            <a
+              class="social"
+              href="https://www.linkedin.com/in/blendi-ferizi-bba3a4228/"
+              target="_blank"
+              ><img src="imazhe/linkedin.png" alt="" width="50px"
+            /></a>
+            <a class="social" href="mailto:fblendi@gmail.com" target="_blank"
+              ><img src="imazhe/gmail.png" alt="" width="60px"
+            /></a>
+          </div>
+        </center>
+        <br />
+
+        <center>
+          <p>
+            All rights reserved
+            <span style="color: green"> &copy;fluturaacademy</span>
+          </p>
+        </center>
+        <center>
+          <pre>
+            Developed by Blendi Ferizi, therefore the developer holds rights to the copyringt of all the source code!
+            also the content of this webpage. for more information you can e-mail to
+          </pre>
+        </center>
+        <center>
+          <p>
+            <a href="mailto:fblendi6@gmail.com">info-akademia@flutura.net</a>
+          </p>
+        </center>
+        <br />
       </div>
     </div>
   </body>
